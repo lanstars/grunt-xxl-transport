@@ -88,7 +88,7 @@ exports.init = function(grunt) {
         }
 
         //add by cdlanxingxing@jd.com on 2017/10/27
-        //return dep.replace(/\.js$/, '').replace(/\\/g,'/');
+        return dep.replace(/\.js$/, '').replace(/\\/g,'/');
 
         //return dep.replace(/\.js$/, '');
       });
